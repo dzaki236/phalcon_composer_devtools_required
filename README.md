@@ -10,3 +10,6 @@
 - on your phalcon project just create new file 
 - make sure your new file name is "composer.json",and paste the code after you copy from repository
 - then run *composer install* and then *composer dump-autoload* on terminal
+
+## WARN !
+- DO NOT TOUCH "composer.lock" file,it can happends and affected to composer!
