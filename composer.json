@@ -5,12 +5,10 @@
             "Dzaki\\PhalconDevtools\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "dzaki236",
-            "email": "dzakiahnafz@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "dzaki236",
+        "email": "dzakiahnafz@gmail.com"
+    }],
     "require": {
         "phalcon/cphalcon": "^4.1",
         "phalcon/zephir": "^0.15.2",
@@ -18,6 +16,7 @@
         "phalcon/devtools": "^4.2",
         "phalcon/ide-stubs": "^4.1",
         "phalcon/dd": "^1.1",
+        "phalcon/traits": "^1.1",
         "rootwork/phalcon-extras": "^0.3.0",
         "phalcon/migrations": "^2.2",
         "fabfuel/prophiler": "^1.6",
