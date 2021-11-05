@@ -6,10 +6,12 @@
 <br>
 
 ## How To Use :
-- just copy code from ./composer.json file
-- on your phalcon project just create new file 
-- make sure your new file name is "composer.json",and paste the code after you copy from repository
-- then run *composer install* and then *composer dump-autoload* on terminal
+- just copy code from "./composer.json" file.
+- on your phalcon project just create 2 new file.
+- : ".gitignore and composer file".
+- make sure for your composer new file name is "composer.json",and paste the code after you copy from repository.
+- and at ".gitignore" file type " /vendor ", to ignore vendor file.
+- then run *composer install* and then *composer dump-autoload* on terminal.
 
 ## WARN !
 - DO NOT TOUCH "composer.lock" file,it can happends and affected to composer!
