@@ -21,6 +21,7 @@
         "phalcon/migrations": "^2.2",
         "fabfuel/prophiler": "^1.6",
         "phpunit/phpunit": "^9.5",
-        "stanislav-web/phalcon-uploader": "dev-master"
+        "stanislav-web/phalcon-uploader": "dev-master",
+        "fzaninotto/faker": "dev-master"
     }
 }
