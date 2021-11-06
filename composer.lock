@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2451fbf47dd0c7a639215624c4176365",
+    "content-hash": "b69bb69a8a34400f9830bac324ef1c0c",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -3383,6 +3383,65 @@
             "time": "2020-09-28T06:39:44+00:00"
         },
         {
+            "name": "stanislav-web/phalcon-uploader",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stanislav-web/phalcon-uploader.git",
+                "reference": "3e46aba5d6f51b52b7830eae21c0d3fe1e524c90"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stanislav-web/phalcon-uploader/zipball/3e46aba5d6f51b52b7830eae21c0d3fe1e524c90",
+                "reference": "3e46aba5d6f51b52b7830eae21c0d3fe1e524c90",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.*-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Uploader\\": "src/Uploader"
+                },
+                "classmap": [
+                    "phpunit/src/Uploader"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stanislav WEB",
+                    "email": "stanisov@gmail.com",
+                    "homepage": "http://reds.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Phalcon files uploader. Handling and downloading files for Phalcon projects. Allowed multiple files download, filters etc...",
+            "homepage": "https://github.com/stanislav-web/phalcon-uploader",
+            "keywords": [
+                "phalcon",
+                "phalcon upload",
+                "phalcon upload files",
+                "phalcon uploader",
+                "uploader"
+            ],
+            "support": {
+                "issues": "https://github.com/stanislav-web/phalcon-uploader/issues",
+                "source": "https://github.com/stanislav-web/phalcon-uploader/tree/master"
+            },
+            "time": "2015-09-18T16:49:11+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.4.12",
             "source": {
@@ -6128,7 +6187,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "stanislav-web/phalcon-uploader": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
