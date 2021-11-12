@@ -4,8 +4,253 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36d6432a2364f9424c1e133e3993f387",
+    "content-hash": "00f2300f54051e6f6e3c22ce03024e12",
     "packages": [
+        {
+            "name": "adhocore/cli",
+            "version": "0.8.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adhocore/php-cli.git",
+                "reference": "c17fdec05954b3bd2df49adff56284a511dd1083"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/adhocore/php-cli/zipball/c17fdec05954b3bd2df49adff56284a511dd1083",
+                "reference": "c17fdec05954b3bd2df49adff56284a511dd1083",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ahc\\Cli\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jitendra Adhikari",
+                    "email": "jiten.adhikary@gmail.com"
+                }
+            ],
+            "description": "Command line interface library for PHP",
+            "keywords": [
+                "PHP7",
+                "argument-parser",
+                "argv-parser",
+                "cli",
+                "cli-action",
+                "cli-app",
+                "cli-color",
+                "cli-option",
+                "cli-writer",
+                "command",
+                "console",
+                "console-app",
+                "php-cli",
+                "stream-input",
+                "stream-output"
+            ],
+            "support": {
+                "issues": "https://github.com/adhocore/php-cli/issues",
+                "source": "https://github.com/adhocore/php-cli/tree/0.8.4"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/ji10",
+                    "type": "custom"
+                }
+            ],
+            "time": "2020-10-09T00:51:05+00:00"
+        },
+        {
+            "name": "adhocore/cron-expr",
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adhocore/php-cron-expr.git",
+                "reference": "18c940403d969d9f36ee7ce8006c0dc00d32fcff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/adhocore/php-cron-expr/zipball/18c940403d969d9f36ee7ce8006c0dc00d32fcff",
+                "reference": "18c940403d969d9f36ee7ce8006c0dc00d32fcff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5 || ^7.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ahc\\Cron\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jitendra Adhikari",
+                    "email": "jiten.adhikary@gmail.com"
+                }
+            ],
+            "description": "Ultra lightweight Cron Expression parser for PHP",
+            "keywords": [
+                "cron",
+                "cron-expr",
+                "cron-expression",
+                "cron-parser"
+            ],
+            "support": {
+                "issues": "https://github.com/adhocore/php-cron-expr/issues",
+                "source": "https://github.com/adhocore/php-cron-expr/tree/1.1.3"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/ji10",
+                    "type": "custom"
+                }
+            ],
+            "time": "2021-10-20T07:43:58+00:00"
+        },
+        {
+            "name": "adhocore/jwt",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adhocore/php-jwt.git",
+                "reference": "6c434af7170090bb7a8880d2bc220a2254ba7899"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/adhocore/php-jwt/zipball/6c434af7170090bb7a8880d2bc220a2254ba7899",
+                "reference": "6c434af7170090bb7a8880d2bc220a2254ba7899",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5 || ^7.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ahc\\Jwt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jitendra Adhikari",
+                    "email": "jiten.adhikary@gmail.com"
+                }
+            ],
+            "description": "Ultra lightweight JSON web token (JWT) library for PHP5.5+.",
+            "keywords": [
+                "auth",
+                "json-web-token",
+                "jwt",
+                "jwt-auth",
+                "jwt-php",
+                "token"
+            ],
+            "support": {
+                "issues": "https://github.com/adhocore/php-jwt/issues",
+                "source": "https://github.com/adhocore/php-jwt/tree/1.1.2"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/ji10",
+                    "type": "custom"
+                }
+            ],
+            "time": "2021-02-20T09:56:44+00:00"
+        },
+        {
+            "name": "adhocore/phalcon-ext",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adhocore/phalcon-ext.git",
+                "reference": "c9f07a25f1d12a4d6653391e01837beb9d6f7719"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/adhocore/phalcon-ext/zipball/c9f07a25f1d12a4d6653391e01837beb9d6f7719",
+                "reference": "c9f07a25f1d12a4d6653391e01837beb9d6f7719",
+                "shasum": ""
+            },
+            "require": {
+                "adhocore/cli": "^0.8.1",
+                "adhocore/cron-expr": "^1.1",
+                "adhocore/jwt": "^1.0",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5 || ^7.5",
+                "swiftmailer/swiftmailer": "^6.0.0",
+                "twig/twig": "^1.3 || ^2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhalconExt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jitendra Adhikari",
+                    "email": "jiten.adhikary@gmail.com"
+                }
+            ],
+            "description": "Miscellaneous phalcon adapters, extensions and utilities",
+            "keywords": [
+                "cache",
+                "cors",
+                "di",
+                "logger",
+                "middleware",
+                "opcache-primer",
+                "phalcon",
+                "phalcon-adapters",
+                "phalcon-argv-parser",
+                "phalcon-cli",
+                "phalcon-extensions",
+                "phalcon-tasks",
+                "php",
+                "request-throttle",
+                "swiftmailer",
+                "twig",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/adhocore/phalcon-ext/issues",
+                "source": "https://github.com/adhocore/phalcon-ext/tree/0.1.0"
+            },
+            "time": "2020-01-03T14:37:01+00:00"
+        },
         {
             "name": "doctrine/instantiator",
             "version": "1.4.0",
@@ -135,27 +380,26 @@
         },
         {
             "name": "fzaninotto/faker",
-            "version": "dev-master",
+            "version": "v1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "5ffe7db6c80f441f150fc88008d64e64af66634b"
+                "reference": "848d8125239d7dbf8ab25cb7f054f1a630e68c2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/5ffe7db6c80f441f150fc88008d64e64af66634b",
-                "reference": "5ffe7db6c80f441f150fc88008d64e64af66634b",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/848d8125239d7dbf8ab25cb7f054f1a630e68c2e",
+                "reference": "848d8125239d7dbf8ab25cb7f054f1a630e68c2e",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3 || ^7.0 || ^8.0"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
                 "ext-intl": "*",
                 "phpunit/phpunit": "^4.8.35 || ^5.7",
                 "squizlabs/php_codesniffer": "^2.9.2"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -184,10 +428,10 @@
             ],
             "support": {
                 "issues": "https://github.com/fzaninotto/Faker/issues",
-                "source": "https://github.com/fzaninotto/Faker/tree/master"
+                "source": "https://github.com/fzaninotto/Faker/tree/v1.9.2"
             },
             "abandoned": true,
-            "time": "2020-12-11T09:59:14+00:00"
+            "time": "2020-12-11T09:56:16+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -6104,6 +6348,61 @@
             "time": "2021-07-28T10:34:58+00:00"
         },
         {
+            "name": "v-cult/phalcon",
+            "version": "0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/corentin-begne/phalconTool.git",
+                "reference": "ee215f26fabb8f45d7e99c8b59bdf4cd3eecdd9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/corentin-begne/phalconTool/zipball/ee215f26fabb8f45d7e99c8b59bdf4cd3eecdd9b",
+                "reference": "ee215f26fabb8f45d7e99c8b59bdf4cd3eecdd9b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Phalcon": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Corentin Bègne",
+                    "email": "corentin.begne@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Manage Phalcon's projects using MYSQL with Cli commands - SCRUD on the fly - Rest API - full stack solution",
+            "homepage": "https://github.com/corentin-begne/phalconTool",
+            "keywords": [
+                "Skeleton",
+                "api",
+                "cli",
+                "full stack",
+                "mysql",
+                "phalcon",
+                "rest",
+                "sass",
+                "scrud",
+                "tool",
+                "websocket"
+            ],
+            "support": {
+                "issues": "https://github.com/corentin-begne/phalconTool/issues",
+                "source": "https://github.com/corentin-begne/phalconTool/tree/master"
+            },
+            "time": "2018-07-05T12:51:45+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v5.3.1",
             "source": {
@@ -6244,8 +6543,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "stanislav-web/phalcon-uploader": 20,
-        "fzaninotto/faker": 20
+        "stanislav-web/phalcon-uploader": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

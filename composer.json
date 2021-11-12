@@ -22,6 +22,9 @@
         "fabfuel/prophiler": "^1.6",
         "phpunit/phpunit": "^9.5",
         "stanislav-web/phalcon-uploader": "dev-master",
-        "fzaninotto/faker": "dev-master"
+        "v-cult/phalcon": "^0.3.0",
+        "fzaninotto/faker": "^1.9",
+        "adhocore/phalcon-ext": "^0.1.0"
+        
     }
 }
