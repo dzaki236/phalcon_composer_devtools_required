@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb47a30d32714504ba421c8c28256c54",
+    "content-hash": "c22fa67ea09b5c42d558a8461e0df199",
     "packages": [
         {
             "name": "adhocore/cli",
@@ -250,6 +250,51 @@
                 "source": "https://github.com/adhocore/phalcon-ext/tree/0.1.0"
             },
             "time": "2020-01-03T14:37:01+00:00"
+        },
+        {
+            "name": "autoaction/phalcon",
+            "version": "1.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/autoavaliar/autoaction-phalcon.git",
+                "reference": "ff432f7f0835fecfad53b03770b0013cb48c7878"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/autoavaliar/autoaction-phalcon/get/ff432f7f0835fecfad53b03770b0013cb48c7878.zip",
+                "reference": "ff432f7f0835fecfad53b03770b0013cb48c7878",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AutoAction\\Phalcon\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Phalcon Funcionalities",
+            "homepage": "https://bitbucket.org/autoavaliar/autoaction-phalcon",
+            "keywords": [
+                "funcionality",
+                "hash",
+                "password",
+                "phalcon",
+                "security"
+            ],
+            "support": {
+                "issues": "https://bitbucket.org/autoavaliar/autoaction-phalcon/issues",
+                "source": "https://bitbucket.org/autoavaliar/autoaction-phalcon/src/ff432f7f0835fecfad53b03770b0013cb48c7878/?at=1.1.7"
+            },
+            "time": "2021-07-29T20:42:56+00:00"
         },
         {
             "name": "doctrine/instantiator",

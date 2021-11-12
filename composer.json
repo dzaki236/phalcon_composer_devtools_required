@@ -28,6 +28,6 @@
         "v-cult/phalcon": "^0.3.0",
         "fzaninotto/faker": "^1.9",
         "adhocore/phalcon-ext": "^0.1.0",
-        "scento/phalcon-php": "dev-master"
+        "autoaction/phalcon": "^1.1"    
     }
 }
