@@ -17,13 +17,16 @@
         "phalcon/ide-stubs": "^4.1",
         "phalcon/dd": "^1.1",
         "phalcon/traits": "^1.1",
-        "rootwork/phalcon-extras": "^0.3.0",
+        "phalcon-ext/mailer": "^3.0",
+        "phalcon-ext/widgets": "^0.2.0",
+        "phalcon-ext/widget-pagination": "^0.1.1",
         "phalcon/migrations": "^2.2",
+        "rootwork/phalcon-extras": "^0.3.0",
         "fabfuel/prophiler": "^1.6",
         "phpunit/phpunit": "^9.5",
         "stanislav-web/phalcon-uploader": "dev-master",
         "v-cult/phalcon": "^0.3.0",
         "fzaninotto/faker": "^1.9",
-        "adhocore/phalcon-ext": "^0.1.0"   
+        "adhocore/phalcon-ext": "^0.1.0"
     }
 }
