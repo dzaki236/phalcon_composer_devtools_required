@@ -6,7 +6,8 @@
 <br>
 
 ## How To Use :
-- just copy code from "./composer.json" file.
+- *composer init* to make custom package ("src") and made it!.
+- If you don't wanna use?, just copy code from "./composer.json" file.
 - on your phalcon project just create 2 new file.
 - : ".gitignore and composer file".
 - make sure for your composer new file name is "composer.json",and paste the code after you copy from repository.
