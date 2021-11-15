@@ -28,6 +28,7 @@
         "v-cult/phalcon": "^0.3.0",
         "fzaninotto/faker": "^1.9",
         "adhocore/phalcon-ext": "^0.1.0",
-        "autoaction/phalcon": "^1.1"    
+        "autoaction/phalcon": "^1.1",
+        "phalcon/incubator-translate": "^0.2.0"    
     }
 }

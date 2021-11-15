@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c22fa67ea09b5c42d558a8461e0df199",
+    "content-hash": "e7d08340a89912847b8eca3715ef87c6",
     "packages": [
         {
             "name": "adhocore/cli",
@@ -1501,6 +1501,89 @@
                 "source": "https://github.com/phalcon/incubator"
             },
             "time": "2016-02-05T19:41:15+00:00"
+        },
+        {
+            "name": "phalcon/incubator-translate",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phalcon/incubator-translate.git",
+                "reference": "c03e2a960a2a20fd17dbc9d93c6c4d7457da47d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phalcon/incubator-translate/zipball/c03e2a960a2a20fd17dbc9d93c6c4d7457da47d0",
+                "reference": "c03e2a960a2a20fd17dbc9d93c6c4d7457da47d0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-phalcon": "^4.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "codeception/codeception": "^4.1",
+                "codeception/module-asserts": "^1.0.0",
+                "codeception/module-cli": "^1.0",
+                "codeception/module-db": "^1.0",
+                "codeception/module-phpbrowser": "^1.0.0",
+                "ext-intl": "*",
+                "ext-pdo": "*",
+                "phalcon/dd": "^1.1",
+                "phalcon/ide-stubs": "^4.0.0",
+                "squizlabs/php_codesniffer": "^3.5",
+                "vimeo/psalm": "^4.1",
+                "vlucas/phpdotenv": "^4.1"
+            },
+            "suggest": {
+                "ext-intl": "Required for Interpolator Adapter support",
+                "ext-pdo": "Required for Database Adapter",
+                "mongodb/mongodb": "Required for MongoDB Adapter support"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phalcon\\Incubator\\Translate\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Phalcon Team",
+                    "email": "team@phalcon.io",
+                    "homepage": "https://phalcon.io/en/team"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/phalcon/incubator-translate/graphs/contributors"
+                }
+            ],
+            "description": "Extra Translate adapters for Phalcon Translate component",
+            "homepage": "https://phalcon.io",
+            "keywords": [
+                "framework",
+                "phalcon",
+                "translate",
+                "translations"
+            ],
+            "support": {
+                "forum": "https://forum.phalcon.io",
+                "issues": "https://github.com/phalcon/incubator/issues",
+                "source": "https://github.com/phalcon/incubator-translate"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/phalcon",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/phalcon",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2021-02-28T21:59:36+00:00"
         },
         {
             "name": "phalcon/migrations",
