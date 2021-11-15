@@ -21,6 +21,8 @@
         "phalcon-ext/widgets": "^0.2.0",
         "phalcon-ext/widget-pagination": "^0.1.1",
         "phalcon/migrations": "^2.2",
+        "phalcon/incubator-translate": "^0.2.0",
+        "phalcon/incubator-validation": "^1.0",
         "rootwork/phalcon-extras": "^0.3.0",
         "fabfuel/prophiler": "^1.6",
         "phpunit/phpunit": "^9.5",
@@ -28,8 +30,6 @@
         "v-cult/phalcon": "^0.3.0",
         "fzaninotto/faker": "^1.9",
         "adhocore/phalcon-ext": "^0.1.0",
-        "autoaction/phalcon": "^1.1",
-        "phalcon/incubator-translate": "^0.2.0",
-        "phalcon/incubator-validation": "^1.0"    
+        "autoaction/phalcon": "^1.1"
     }
 }
