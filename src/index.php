@@ -32,6 +32,7 @@ try {
     echo $app->handle('uri')->getContent();
 
 } catch(\Phalcon\Exception $e) {
-    echo $e->getMessage();
-    echo "<br> Try Documentation <a href='https://docs.phalcon.io/4.0/en/introduction'>Here</a>";
+    echo $e->getMessage() . '<br>';
+    echo '<pre>' . $e->getTraceAsString() . '</pre>';
+    echo "<br> <h4>Try Documentation <a href='https://docs.phalcon.io/4.0/en/introduction'>Here</a><h/h4>";
 }
