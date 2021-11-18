@@ -1,11 +1,11 @@
 <?php
 
-use Fabfuel\Prophiler\Plugin\Manager\Phalcon;
+//use Fabfuel\Prophiler\Plugin\Manager\Phalcon;
 use Phalcon\Di\FactoryDefault;
 use Phalcon\Loader;
 use Phalcon\Mvc\Application;
 use Phalcon\Mvc\View;
-// use ;
+// use strict;
 
 try {
     // Autoloader
@@ -35,4 +35,8 @@ try {
     echo $e->getMessage() . '<br>';
     echo '<pre>' . $e->getTraceAsString() . '</pre>';
     echo "<br> <h4>Try Documentation <a href='https://docs.phalcon.io/4.0/en/introduction'>Here</a><h/h4>";
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> aa66b32047c62bd2ddf6a74cffd4a7c005acf578
