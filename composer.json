@@ -30,6 +30,15 @@
         "v-cult/phalcon": "^0.3.0",
         "fzaninotto/faker": "^1.9",
         "adhocore/phalcon-ext": "^0.1.0",
-        "autoaction/phalcon": "^1.1"
+        "autoaction/phalcon": "^1.1",
+        "php-http/message": "^1.5",
+        "php-http/guzzle6-adapter": "^1.1",
+        "malkusch/lock": "^1.0",
+        "facebook/graph-sdk": "^5.4",
+        "workerman/phpsocket.io": "^1.0",
+        "fennb/phirehose": "^1.0",
+        "stomp-php/stomp-php": "^4.1",
+        "php-amqplib/php-amqplib": "^2.6",
+        "phpmailer/phpmailer": "^5.2"
     }
 }
