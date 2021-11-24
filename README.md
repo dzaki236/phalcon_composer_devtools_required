@@ -7,7 +7,7 @@
 
 ## How To Use :
 - *composer init* to make custom package ("src") and made it!.
-- If you don't wanna make your own package or helper?, just create new file "composer.json".
+- If you don't wanna make your own package or helper?, just create new file "composer.json" on main root of your project.
 - Copy code from "./composer.json" file.
 - on your phalcon project just create 2 new file.
 - : ".gitignore and composer file".
