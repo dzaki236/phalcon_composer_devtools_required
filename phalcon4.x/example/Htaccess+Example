@@ -1,0 +1,17 @@
+.htaccess (below the /public folder):
+-------------------------------------
+
+    RewriteEngine on
+    RewriteRule  ^$ public/    [L]
+    RewriteRule  (.*) public/$1 [L]
+
+
+.htaccess (inside /public folder):
+-------------------------------------
+
+    AddDefaultCharset UTF-8
+
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php?_url=/$1 [QSA,L]

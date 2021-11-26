@@ -1,3 +1,5 @@
-/vendor
-composer.lock
+/phalcon3.x/vendor
+/phalcon3.x/composer.lock
+/phalcon4.x/vendor
+/phalcon4.x/composer.lock
 # .gitignore
