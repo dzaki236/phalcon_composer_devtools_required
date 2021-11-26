@@ -6,6 +6,7 @@
 <br>
 
 ## How To Use :
+- check your phalcon version,make sure the version is (4.x.x) <= 5.x.x alphax.
 - *composer init* to make custom package ("src") and made it!.
 - If you don't wanna make your own package or helper?, just create new file "composer.json" on main root of your project.
 - Copy code from "./composer.json" file.
