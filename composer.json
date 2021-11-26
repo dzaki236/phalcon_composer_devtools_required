@@ -1,4 +1,6 @@
 {
+"minimum-stability": "dev",
+"prefer-stable": true,
     "require": {
         "phalcon/cphalcon": "^4.1",
         "phalcon/zephir": "^0.15.2",
