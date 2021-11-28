@@ -11,9 +11,15 @@ try {
 
     // Dependency Injection
     $di = new \Phalcon\DI\FactoryDefault();
+    // View
     $di->set('view', function() {
         $view = new \Phalcon\Mvc\View();
-        $view->setViewsDir('../app/views');
+        $view->setViewsDir('../app/views/');
+
+        // Register the VOLT Template Engine
+        $view->registerEngines([
+            ".volt" => 'Phalcon\Mvc\View\Engine\Volt'
+        ]);
         return $view;
     });
 
