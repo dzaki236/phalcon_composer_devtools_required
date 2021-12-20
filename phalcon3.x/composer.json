@@ -27,6 +27,10 @@
         "phpmailer/phpmailer": "^5.2",
         "guzzlehttp/guzzle": "~6.0",
         "phpunit/phpunit": "^8.5",
-        "symfony/mailer": "^5.3"
+        "symfony/mailer": "^5.3",
+        "m1ome/phalcon-datatables": "^1.1",
+        "dmkit/phalcon-jwt-auth": "^1.0"
+        
+        
     }
 }
