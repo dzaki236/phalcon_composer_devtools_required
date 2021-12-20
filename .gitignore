@@ -2,4 +2,7 @@
 /phalcon3.x/composer.lock
 /phalcon4.x/vendor
 /phalcon4.x/composer.lock
+
+/MainConfigx.stable/vendor
+/MainConfigx.stable/composer.lock
 # .gitignore
